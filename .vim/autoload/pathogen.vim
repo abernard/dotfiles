@@ -1,1 +1,1 @@
-/home/ubuntu/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+.vim/bundle/pathogen/autoload/pathogen.vim
