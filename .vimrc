@@ -1,7 +1,10 @@
-execute pathogen#infect()
+runtime bundle/pathogen/autoload/pathogen.vim
+call pathogen#infect()
 syntax on
 set nocompatible
 set encoding=utf-8
+filetype plugin on
+filetype indent on
 
 inoremap <S-CR> <Esc>
 inoremap ✠ <Esc>
@@ -16,8 +19,6 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 let g:Powerline_symbols = 'fancy'
 
-filetype plugin on
-filetype indent on
 set nomodeline
 set number
 set shiftwidth=2
