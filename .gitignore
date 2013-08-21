@@ -2,7 +2,12 @@
 !.gitignore
 !.vim
 !.vimrc
+.vim/.netrwhist
 !.oh-my-zsh
 !.zsh
 !.zshrc
+!.bin
+!.misc
+!.lein
+.lein/repl-history
 

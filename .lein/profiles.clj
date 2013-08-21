@@ -1,0 +1,10 @@
+{:user {:plugins [[lein-ancient "0.4.4"]
+                  [lein-localrepo "0.5.2"]
+                  [lein-lesscss "1.2"]
+                  [lein-scalac "0.1.0"]
+                  [lein-dist "0.1.1"]
+                  [lein-release "1.0.4"]
+                  [lein-html5-docs "2.0.0"]
+                  [lein-javadoc "0.1.1"]
+                  [lein-licenses "0.1.1"]
+                  [no-man-is-an-island/lein-eclipse "2.0.0"]]}}
