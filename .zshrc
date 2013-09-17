@@ -23,5 +23,6 @@ esac
 
 export AUTO_CD="false"
 plugins=(lein git)
-source $ZSH/oh-my-zsh.sh
 
+source $ZSH/oh-my-zsh.sh
+. ~/.zsh/local.sh
