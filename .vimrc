@@ -60,3 +60,7 @@ let java_highlight_java_lang_ids=1
 let java_highlight_functions="style"
 let java_javascript=1
 let java_css=1
+
+" neocomplete options
+let g:neocomplete#enable_at_startup = 1
+

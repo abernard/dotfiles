@@ -11,7 +11,15 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_SPACE 
 alias clear=" clear"
 alias ls=" ls"
-alias rm=" srm"
+
+#os=$(uname)
+os="$(uname)"
+
+case $os in
+  Linux) alias rm=" shred";;
+  MacOSX) alias rm=" srm";;
+  *) ;;
+esac
 
 export AUTO_CD="false"
 plugins=(lein git)
