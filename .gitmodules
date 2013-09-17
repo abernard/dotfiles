@@ -28,3 +28,18 @@
 [submodule ".vim/bundle/less"]
 	path = .vim/bundle/less
 	url = https://github.com/groenewege/vim-less.git
+[submodule ".vim/bundle/scala"]
+	path = .vim/bundle/scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule ".vim/bundle/neocomplete"]
+	path = .vim/bundle/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule ".vim/bundle/rust"]
+	path = .vim/bundle/rust
+	url = git://github.com/wting/rust.vim.git
+[submodule ".vim/bundle/supertab"]
+	path = .vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule ".vim/bundle/clang-complete"]
+	path = .vim/bundle/clang-complete
+	url = https://github.com/Rip-Rip/clang_complete.git

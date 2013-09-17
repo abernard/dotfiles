@@ -11,6 +11,7 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_SPACE 
 alias clear=" clear"
 alias ls=" ls"
+alias rm=" srm"
 
 export AUTO_CD="false"
 plugins=(lein git)

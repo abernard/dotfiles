@@ -43,3 +43,20 @@ let g:paredit_mode = 1
 autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
 autocmd BufRead,BufNewFile *.edn setlocal filetype=clojure
 
+" scala options
+let g:scala_sort_across_groups=1
+set tags=tags;/
+
+" clang options
+let g:clang_exec = '/usr/bin/clang'
+let g:clang_complete_auto = 1
+let g:clang_use_library = 1
+let g:clang_debug = 1
+let g:clang_library_path = '/usr/lib/'
+let g:clang_user_options='2> /dev/null || exit 0'
+
+" java options
+let java_highlight_java_lang_ids=1
+let java_highlight_functions="style"
+let java_javascript=1
+let java_css=1

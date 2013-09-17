@@ -2,7 +2,12 @@
 !.gitignore
 !.vim
 !.vimrc
+.vim/.VimballRecord
 .vim/.netrwhist
+.vim/bin
+.vim/eclim
+.vim/plugin
+.vim/doc
 !.oh-my-zsh
 !.zsh
 !.zshrc
@@ -10,4 +15,5 @@
 !.misc
 !.lein
 .lein/repl-history
-
+!.ctags
+!.keymap

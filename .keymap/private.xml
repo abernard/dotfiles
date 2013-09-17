@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Shift+Enter to Escape</name>
+    <identifier>private.shift_enter2escape</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::RETURN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::ESCAPE
+    </autogen>
+  </item>
+</root>
