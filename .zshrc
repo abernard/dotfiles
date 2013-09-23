@@ -16,13 +16,13 @@ alias ls=" ls"
 os="$(uname)"
 
 case $os in
-  Linux) alias rm=" shred";;
-  MacOSX) alias rm=" srm";;
+  #Linux) alias rm=" shred";;
+  MacOSX) alias rm=" srm -ll";;
   *) ;;
 esac
 
 export AUTO_CD="false"
-plugins=(lein git)
+plugins=(hg lein git)
 
 source $ZSH/oh-my-zsh.sh
 . ~/.zsh/local.sh
