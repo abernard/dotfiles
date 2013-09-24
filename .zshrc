@@ -24,5 +24,7 @@ esac
 export AUTO_CD="false"
 plugins=(hg lein git)
 
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
+
 source $ZSH/oh-my-zsh.sh
 . ~/.zsh/local.sh
