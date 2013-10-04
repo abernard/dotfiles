@@ -43,3 +43,12 @@
 [submodule ".vim/bundle/clang-complete"]
 	path = .vim/bundle/clang-complete
 	url = https://github.com/Rip-Rip/clang_complete.git
+[submodule ".vim/bundle/sqlutilities"]
+	path = .vim/bundle/sqlutilities
+	url = https://github.com/vim-scripts/SQLUtilities.git
+[submodule ".vim/bundle/dbext"]
+	path = .vim/bundle/dbext
+	url = https://github.com/vim-scripts/dbext.vim.git
+[submodule ".vim/bundle/align"]
+	path = .vim/bundle/align
+	url = https://github.com/vim-scripts/Align.git

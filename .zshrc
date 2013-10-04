@@ -12,7 +12,6 @@ setopt HIST_IGNORE_SPACE
 alias clear=" clear"
 alias ls=" ls"
 
-#os=$(uname)
 os="$(uname)"
 
 case $os in
@@ -25,6 +24,7 @@ export AUTO_CD="false"
 plugins=(hg lein git)
 
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 source $ZSH/oh-my-zsh.sh
 . ~/.zsh/local.sh
